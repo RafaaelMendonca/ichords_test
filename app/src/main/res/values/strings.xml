@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">My teste</string>
+    <string name="email">Email</string>
+    <string name="ichords_image">ichords_image</string>
+    <string name="password">Senha</string>
+    <string name="forgot_password">Esqueci a senha</string>
+    <string name="to_enter">Entrar</string>
+    <string name="user">Usuário</string>
+    <string name="continue_without_login">Continuar sem Login</string>
+    <string name="enter">Entrar</string>
+    <string name="title_one">Axé conteporâneo</string>
+    <string name="artist">Artista</string>
+    <string name="top_ten_music">Top 10</string>
+</resources>
