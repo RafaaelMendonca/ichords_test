@@ -5,5 +5,6 @@ data class Lesson(
     val title: String,
     val subtitle: String,
     val coinResource: Int,
-    val coinText: String
+    val coinText: String,
+    val targetActivity: Class<*>
 )

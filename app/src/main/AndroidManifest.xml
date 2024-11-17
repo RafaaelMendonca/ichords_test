@@ -13,8 +13,8 @@
         android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar"
         tools:targetApi="31">
 
-        <activity android:name=".HomeActivity"></activity>
         <activity android:name=".LicoesListActivity"></activity>
+        <activity android:name=".ChordsLessonActivity"></activity>
         <activity
             android:name=".MainActivity"
             android:exported="true">

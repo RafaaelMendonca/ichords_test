@@ -1,5 +1,6 @@
 package com.example.myteste
 
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -18,6 +19,14 @@ class LessonsAdapter(private val lessons: List<Lesson>) :
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val lesson = lessons[position]
         holder.bind(lesson)
+
+        // Configura o clique no item
+        holder.itemView.setOnClickListener {
+            // Cria um Intent para abrir a Activity correspondente
+            val context = holder.itemView.context
+            val intent = Intent(context, lesson.targetActivity)
+            context.startActivity(intent)
+        }
     }
 
     override fun getItemCount(): Int {
