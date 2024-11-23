@@ -15,6 +15,7 @@
 
         <activity android:name=".LicoesListActivity"></activity>
         <activity android:name=".ChordsLessonActivity"></activity>
+        <activity android:name=".ChordsLessonActivity2"></activity>
         <activity
             android:name=".MainActivity"
             android:exported="true">

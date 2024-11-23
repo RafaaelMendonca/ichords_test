@@ -2,6 +2,7 @@ package com.example.myteste
 
 import android.net.Uri
 import android.os.Bundle
+import android.widget.ImageButton
 import android.widget.MediaController
 import android.widget.VideoView
 import androidx.appcompat.app.AppCompatActivity
@@ -16,7 +17,7 @@ class ChordsLessonActivity : AppCompatActivity() {
         val videoView: VideoView = findViewById(R.id.lesson_video)
 
         // Configura o vídeo usando o diretório raw
-        val videoUri = Uri.parse("android.resource://" + packageName + "/" + R.raw.ensinando_acordes)
+        val videoUri = Uri.parse("android.resource://" + packageName + "/" + R.raw.acordes1)
         videoView.setVideoURI(videoUri)
 
         // Adiciona o MediaController para controle de reprodução
@@ -26,5 +27,10 @@ class ChordsLessonActivity : AppCompatActivity() {
 
         // Inicia o vídeo automaticamente
         videoView.start()
+
+        val backButton: ImageButton = findViewById(R.id.back_Button)
+        backButton.setOnClickListener {
+            onBackPressed()
+        }
     }
 }
