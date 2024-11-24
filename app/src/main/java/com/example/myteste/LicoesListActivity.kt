@@ -20,8 +20,8 @@ class LicoesListActivity: AppCompatActivity() {
         val lessons = listOf(
             Lesson(R.drawable.violao_icon, "Acordes I", "Básico", R.drawable.chord_coin, "+10", ChordsLessonActivity::class.java),
             Lesson(R.drawable.violao_icon, "Acordes II", "Básico", R.drawable.chord_coin, "+10", ChordsLessonActivity2::class.java),
-            Lesson(R.drawable.violao_icon, "Pestana", "Intermediário", R.drawable.chord_coin, "+20", ChordsLessonActivity::class.java),
-            Lesson(R.drawable.violao_icon, "Dedilhado", "Avançado", R.drawable.chord_coin, "+30", ChordsLessonActivity::class.java)
+            Lesson(R.drawable.violao_icon, "Pestana", "Intermediário", R.drawable.locked, "+20", ChordsLessonActivity::class.java),
+            Lesson(R.drawable.violao_icon, "Dedilhado", "Avançado", R.drawable.locked, "+30", ChordsLessonActivity::class.java)
 
         )
 
