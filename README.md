@@ -70,10 +70,8 @@ Este projeto Android tem como objetivo [descrever o objetivo principal do app, p
   * Implementar ganhos de moedas a cada 10 minutos no tempo máximo de 30 min/dia.
   * Implementar sistema de ranking global mensal.
 * **Melhorias:**
-  * Otimizar o desempenho do aplicativo, especialmente ao reproduzir vídeos.
   * Ajustar layouts das telas.
   * Implementar testes unitários e de interface.
-  * Traduzir o aplicativo para outros idiomas.
 
 
 
